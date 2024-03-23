@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bot-handler-students1questions",
+  "private_key_id": "02f476ba903bc5cdbf4a1b0fe388596afbc5e9a3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDY9EN5pGpdfc0y\n04kQDlPDtTE+vfTUPvVddqgGj/wwcXT27syftl5uMdwWkOZ7H1sMDk9EQqm326es\ntNOXyn7LCSR0HhPy37McJDD+jYTyUmbK0wGAr7dJvR+8Bae14NespxuntWAjl2px\nd3zBcVgxbBGcW6KsoPk+8mmBo5iL3jBonA0wkNHgC5ncdtqEKmaJvt8GNN5bRvTU\nBwwEcCdAMngjEsTdHrLh7NE+Z2GOXRaaZq0Z+0lCvVnYpRxb84SWUVyacBwS+8S/\nLSrwgs90uR7vMiTx1eH77cdskTpNXrPHGOH5nAFpxQMCXJPWrs4o0HeFFovx817L\nUqXaAgc9AgMBAAECggEALv8GqNCFW/g23ZY2IBzCZ2gWIU27vchflV3xOu6wxful\nxyHmgIhcP0mcr+S2kKAztFJbOGGqaxHxafeHyF9MhQXXeDHVx2xO2785P8L/NBDG\nhJQdxLcLoLUPrUaaVEs+3P8b/gHLsBoKLEciZrL7VEVhMTombHe4VjrjwPnjvxQ9\nqIij0Y6bQBLlakZ+9hOFPpQlwM+5kjGmIjaMi97oT5WZuKkfSq8B8WKx0N0XUG1F\n2UXhwbtsc2R1KgAzQQEN3d8jXxGlItrfxwdHNSZMGoT177pNuSeMtWNR3n/+4V8y\njpdjDfHdOvqzfaByCcwBSl2MWCcoD4KM3rrqKewSMQKBgQD51mWz3p+RwQMLtXtC\n824vMw+8ZIP86DsqBWMU6Dr+o5zABBNjH8VwZD5T6VtZw5sZ7diheS2IYkXGVORO\nsWx9hKMN6gJrBQC1MfThBrqE/IAu3PLC26c9RuhGNQn1GKW18I3lWpz6OQ6/z8nv\nUozY2TON8Lt/vHmUMQg2uofhhQKBgQDeTjlWAe7bCUGjQaCoiGLuUFIQHzLFje3A\nw/iNNMKH80KcQ9dOH6g2l2J13+r25Sfrn5XTcgq6N5NF91XrY6K8r5VYik6nXwBF\nEK+GbpVfCgPS0ajSGyLhK+2UcWNzYX8G6YqRxZiy6J5qNta0KgE+2a6730pIU52B\n1gcVjIQgWQKBgQDf2J+xBDNWZWf0Mrto5jD/6zEbK7gyfmScJs16qwRIqJFGXaB9\nPLcrFzXc+wVVLPQnzDo/mxIX020O4XrZoxBAefmZ+uQFvSrALi1o/R1bD91Nn7uG\nqUVzmrd8SANO7bFzjT+lkoV5kGvNokAcxIrbs+gEMf/c2CLaiwAAASrD/QKBgQDO\nQRt3TgHT3Ym1s90goLHRVFpfNOMBYgZ19Bz2vj3CrxNdMqBfjoWeaORkYyV4fvKD\n7aOv8746Off9UVa5N880a2AQLvp81WrFqY6BFral3//eKMIOdjjtW7lpIa7YzVtz\nCVmUmBVt4N+hwlGABPz02DkDfE9KPbIEVZRrDN1FuQKBgQDck3teYmOSo/J1eyal\nwVxokJiz1wInExVIdmxGlQVg8mKe2T4KqPwUlGgLde0uet7yaq5yQZFsoYfWaz7t\ntuo+XA98OafPxenfW8Y4MdOAdaToirxXenVhrxaCLgt0TVkPIEq22m8kC7HyQngB\nIO7A5lrXEipm307+LeIl7kXPXQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bothandler1@bot-handler-students1questions.iam.gserviceaccount.com",
+  "client_id": "109399808530355783747",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bothandler1%40bot-handler-students1questions.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

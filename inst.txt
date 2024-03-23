@@ -1,0 +1,40 @@
+
+категории:
+домашняя работа - homework
+пуд - pud
+элементы контроля - controls
+курсовые/дипломные работы - coursework_thesis
+срочно - urgently
+кастомный - other
+
+
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip install oauth2client # возможно не надо
+pip install pyTelegramBotAPI
+
+https://habr.com/ru/articles/575160/
+https://hands-on.cloud/python-google-sheets-api/
+
+
+bot_father -> получить токен для бота тг, вставить в конфиг TG_TOKEN
+
+создать таблтицу
+добавить в редакторы bothandler1@bot-handler-students1questions.iam.gserviceaccount.com
+взять ссылку https://docs.google.com/spreadsheets/d/<ID электронной таблицы (spreadsheet ID)>/edit#gid=<ID листа (sheet ID) >
+в конфиге сделать TABLE_ID = id таблицы
+в конфиге сделать SHEET_ID = название листа
+
+настройка полей
+А1 группа
+B1 тема
+C1 вопрос
+D1 фио
+E1 тг
+F1 Ответ
+G1 Ответить?
+H1 Отправлено
+технические
+I - id вопроса
+J- id пользователя
+
+для g2, h2 добавить чекбоксы и растянуть на все строки
