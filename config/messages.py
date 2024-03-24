@@ -27,7 +27,7 @@ QUESTIONS_TRANSLATOR = {
 }
 
 ENTER_NAME = str(
-    'Введите свои имя и фамилию'
+    'Введите свое ФИО'
 )
 
 ENTER_GROUP = str(

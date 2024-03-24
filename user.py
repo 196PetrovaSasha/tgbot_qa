@@ -38,7 +38,7 @@ class User:
         return str(f'Текущая информация:\n'
                    f'ФИО: {self.real_name}\n'
                    f'username: {self.username}\n'
-                   f'группа: {self.group}\n'
+                   f'Группа: {self.group}\n'
                    f'заполнены необходимые данные: {self.logged}\n'
                    f'Тема текущего вопроса: {self.current_question_theme}\n'
                    f'Текст текущего вопроса: {self.current_question_message}\n')
