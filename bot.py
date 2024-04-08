@@ -1,6 +1,7 @@
 import telebot
 from telebot import types
 
+import config.conf as conf
 from config import messages
 from config.conf import TG_TOKEN
 from user import User, users
@@ -61,7 +62,8 @@ def start(message):
         bot.send_message(message.from_user.id, messages.START, reply_markup=make_keyboard(message.from_user.id))
     else:
         bot.send_message(message.from_user.id, messages.START)
-        bot.send_message(message.from_user.id, 'Вы уже зарегестрированы', reply_markup=make_keyboard(message.from_user.id))
+        bot.send_message(message.from_user.id, 'Вы уже зарегестрированы',
+                         reply_markup=make_keyboard(message.from_user.id))
 
 
 @bot.message_handler(commands=['me'])
@@ -84,9 +86,17 @@ def question(message):
     bot.send_message(message.from_user.id, messages.QUESTIONS_INFO, reply_markup=make_keyboard(message.from_user.id))
 
 
+def send_teacher(user):
+    bot.send_message(conf.TEACHER_ID,
+                     messages.URGENTLY_QUESTION.format(group=user.group, name=user.real_name, username=user.username,
+                                                       question=user.current_question_message))
+
+
 def send_question(user):
     if user.logged and len(user.current_question_theme) and len(user.current_question_message):
         add_question(user)
+        if user.current_question_theme == 'Срочно':
+            send_teacher(user)
         user.reset_question()
         save_questions()
         return True
